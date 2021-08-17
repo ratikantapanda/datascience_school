@@ -1,0 +1,8 @@
+1. On macOS
+
+If you installed PostgreSQL via Homebrew:
+
+To start manually: - pg_ctl -D /usr/local/var/postgres start
+To stop manually: - pg_ctl -D /usr/local/var/postgres stop
+To start PostgreSQL server now and relaunch at login: - brew services start postgresql
+stop PostgreSQL - brew services stop postgresql
